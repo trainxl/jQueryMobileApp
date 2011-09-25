@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Page Title</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="foo" data-title="Home">
+
+	<div data-role="header">
+		<h1>Home</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" class="homepage">	
+            <h2>Johnny Blackbone</h2>
+            <p>Johnny Blackbone ist jetzt auch immer in Deiner Hosentasche.</p>
+            <ul data-inset="true" data-role="listview" data-theme="b">
+                    <li><a href="#feed">Newsfeed</a></li>
+                    <li><a href="#photos">Fotos</a></li>
+                    <li><a href="#dates">Termine</a></li>
+                    <li><a href="#imprint">Impressum</a></li>
+            </ul>		
+	</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-role="page" id="feed" data-title="Newsfeed" data-add-back-btn="true">
+
+	<div data-role="header">
+                <h1>Newsfeed</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>I'm first in the source order so I'm shown as the page.</p>		
+		<p><a href="#foo">Back to foo</a></p>	
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="photos" data-title="Fotos" data-add-back-btn="true">
+
+	<div data-role="header">
+                <h1>Fotos</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>I'm first in the source order so I'm shown as the page.</p>		
+		<p><a href="#foo">Back to foo</a></p>	
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="dates" data-title="Termine" data-add-back-btn="true">
+
+	<div data-role="header">
+                <h1>Termine</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>I'm first in the source order so I'm shown as the page.</p>		
+		<p><a href="#foo">Back to foo</a></p>	
+	</div><!-- /content -->
+</div><!-- /page -->
+
+<div data-role="page" id="imprint" data-title="Impressum" data-add-back-btn="true">
+
+	<div data-role="header">
+		<h1>Impressum</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>I'm first in the source order so I'm shown as the page.</p>		
+		<p><a href="#foo">Back to foo</a></p>	
+	</div><!-- /content -->
+</div><!-- /page -->
+</body>
