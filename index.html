@@ -12,20 +12,22 @@
 </head> 
 <body> 
 
-<div data-role="page" id="foo" data-title="Home">
+<div data-role="page" id="foo" data-title="Home" class="homepage">
 
 	<div data-role="header">
 		<h1>Home</h1>
 	</div><!-- /header -->
 
-	<div data-role="content" class="homepage">	
-            <h2>Johnny Blackbone</h2>
-            <p>Johnny Blackbone ist jetzt auch immer in Deiner Hosentasche.</p>
+	<div data-role="content">	
+            <div class="teaser">
+                <h2>Johnny Blackbone</h2>
+                <p>Johnny Blackbone ist jetzt auch immer in Deiner Hosentasche.</p>
+            </div>
             <ul data-inset="true" data-role="listview" data-theme="b">
                     <li><a href="#feed">Newsfeed</a></li>
                     <li><a href="#photos">Fotos</a></li>
-                    <li><a href="#dates">Termine</a></li>
-                    <li><a href="#imprint">Impressum</a></li>
+                    <li><a href="#dates">Tourdaten</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
             </ul>		
 	</div><!-- /content -->
 </div><!-- /page -->
@@ -55,10 +57,10 @@
 	</div><!-- /content -->
 </div><!-- /page -->
 
-<div data-role="page" id="dates" data-title="Termine" data-add-back-btn="true">
+<div data-role="page" id="dates" data-title="Tourdaten" data-add-back-btn="true">
 
 	<div data-role="header">
-                <h1>Termine</h1>
+                <h1>Tourdaten</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
@@ -67,10 +69,10 @@
 	</div><!-- /content -->
 </div><!-- /page -->
 
-<div data-role="page" id="imprint" data-title="Impressum" data-add-back-btn="true">
+<div data-role="page" id="contact" data-title="Kontakt" data-add-back-btn="true">
 
 	<div data-role="header">
-		<h1>Impressum</h1>
+		<h1>Kontakt</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
