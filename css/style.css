@@ -8,3 +8,12 @@ div[data-role=page] {
     padding: 5px 15px;
     border-radius: 8px;
 }   
+
+/* Mobile */
+.ui-li-thumb, .ui-li-icon, .ui-li-content {
+    clip: rect(0px, 80px, 80px, 0px) !important; 
+}
+
+.ui-li-thumb, .ui-li-icon {
+    max-width: 110px !important;
+}   
