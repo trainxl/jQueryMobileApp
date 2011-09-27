@@ -1,10 +1,10 @@
 div[data-role=page] {
-    background: transparent url('http://placekitten.com/400/900') no-repeat !important;
+/*    background: transparent url('http://placekitten.com/400/900') no-repeat !important;*/
 /*    background: transparent url('http://src.sencha.io/http://placekitten.com/400/800') no-repeat !important;*/
 }
 
 .teaser {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.3) url('http://placekitten.com/400/200') no-repeat !important;;
     padding: 5px 15px;
     border-radius: 8px;
-}
+}   

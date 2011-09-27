@@ -12,7 +12,7 @@
 </head> 
 <body> 
 
-<div data-role="page" id="foo" data-title="Home" class="homepage">
+<div data-theme="a" data-role="page" id="foo" data-title="Home" class="homepage">
 
 	<div data-role="header">
 		<h1>Home</h1>
@@ -23,7 +23,8 @@
                 <h2>Johnny Blackbone</h2>
                 <p>Johnny Blackbone ist jetzt auch immer in Deiner Hosentasche.</p>
             </div>
-            <ul data-inset="true" data-role="listview" data-theme="b">
+            <ul data-inset="true" data-role="listview" data-theme="a">
+                    <li data-role="list-divider" role="heading">Overview</li>
                     <li><a href="#feed">Newsfeed</a></li>
                     <li><a href="#photos">Fotos</a></li>
                     <li><a href="#dates">Tourdaten</a></li>
@@ -33,7 +34,7 @@
 </div><!-- /page -->
 
 
-<div data-role="page" id="feed" data-title="Newsfeed" data-add-back-btn="true">
+<div data-theme="a"  data-role="page" id="feed" data-title="Newsfeed" data-add-back-btn="true">
 
 	<div data-role="header">
                 <h1>Newsfeed</h1>
@@ -45,7 +46,7 @@
 	</div><!-- /content -->
 </div><!-- /page -->
 
-<div data-role="page" id="photos" data-title="Fotos" data-add-back-btn="true">
+<div data-theme="a"  data-role="page" id="photos" data-title="Fotos" data-add-back-btn="true">
 
 	<div data-role="header">
                 <h1>Fotos</h1>
@@ -57,19 +58,98 @@
 	</div><!-- /content -->
 </div><!-- /page -->
 
-<div data-role="page" id="dates" data-title="Tourdaten" data-add-back-btn="true">
+
+<div data-theme="a"  data-role="page" id="dates" data-title="Tourdaten" data-add-back-btn="true">
 
 	<div data-role="header">
                 <h1>Tourdaten</h1>
 	</div><!-- /header -->
 
-	<div data-role="content">	
-		<p>I'm first in the source order so I'm shown as the page.</p>		
-		<p><a href="#foo">Back to foo</a></p>	
+	<div data-role="content">
+            <ul data-role="listview" class="ui-listview" data-theme="a">
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/91/91" />
+                        <h2>Dortmund</h2>
+                        <p>Johnny kommt auch nach Dortmund!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Hamburg</h2>
+                        <p>Johnny kommt auch nach Hamburg!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Berlin</h2>
+                        <p>Johnny kommt auch nach Berlin!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/91/91" />
+                        <h2>Dortmund</h2>
+                        <p>Johnny kommt auch nach Dortmund!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Hamburg</h2>
+                        <p>Johnny kommt auch nach Hamburg!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Berlin</h2>
+                        <p>Johnny kommt auch nach Berlin!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/91/91" />
+                        <h2>Dortmund</h2>
+                        <p>Johnny kommt auch nach Dortmund!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Hamburg</h2>
+                        <p>Johnny kommt auch nach Hamburg!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#details">
+                        <img class="ui-li-thumb" src="http://placekitten.com/80/80" />
+                        <h2>Berlin</h2>
+                        <p>Johnny kommt auch nach Berlin!</p>
+                    </a>
+                </li>
+            </ul>
 	</div><!-- /content -->
 </div><!-- /page -->
 
-<div data-role="page" id="contact" data-title="Kontakt" data-add-back-btn="true">
+<!--Detailansicht-->
+<div data-theme="a"  data-role="page" id="details" data-title="details" data-add-back-btn="true">
+
+	<div data-role="header">
+                <h1>Details</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+            <img  src="http://placekitten.com/91/91" />
+            <h2>Dortmund</h2>
+            <p>Johnny kommt auch nach Dortmund!</p>            
+	</div><!-- /content -->
+</div><!-- /page -->
+
+
+<div data-theme="a"  data-role="page" id="contact" data-title="Kontakt" data-add-back-btn="true">
 
 	<div data-role="header">
 		<h1>Kontakt</h1>
